@@ -1,4 +1,4 @@
-package org.harshmathur.dsa.searching;
+package com.harshmathur.dsa.searching;
 
 public class BinarySearch {
 
