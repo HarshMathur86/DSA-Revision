@@ -14,7 +14,8 @@ public class BinarySearch {
         int end = arr.length-1;
 
         while(start <= end) {
-            int mid = start + (end-start)/2;
+//            int mid = (start+end)/2;
+            int mid = start + (end-start)/2; // Optimized mechisim for not to break int limit
             if (arr[mid] > target) {
                 end = mid-1;
             } else if (arr[mid] < target) {
