@@ -1,5 +1,6 @@
 package com.harshmathur.dsa.searching;
 
+
 public class BinarySearch {
 
     static void main() {
