@@ -1,6 +1,6 @@
 package com.harshmathur.leetcode.binarysearch;
 
-public class SquareRoot {
+public class BS_69_SquareRoot {
 
     static void main() {
         IO.println(mySqrt(15));
