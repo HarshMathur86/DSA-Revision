@@ -1,4 +1,4 @@
-package com.harshmathur.dsa;
+package com.harshmathur;
 
 /**
  * Note: Project is based on JDK on
