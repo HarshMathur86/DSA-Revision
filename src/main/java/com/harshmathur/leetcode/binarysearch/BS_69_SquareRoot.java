@@ -17,7 +17,7 @@ public class BS_69_SquareRoot {
 
         while(s<=e) {
             int m = s + (e-s)/2;
-            //necessay for Integer overflow fix
+            //necessary for Integer overflow fix
             long square = (long) m * m;
 
             if(square == x) {
@@ -26,7 +26,7 @@ public class BS_69_SquareRoot {
                 //Move to left sub-arr
                 e = m-1;
             } else if(square < x) {
-                ///Move to right
+                //Move to right
                 s = m+1;
             }
 
